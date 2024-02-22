@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!--fonts links for infinite loop-->
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Barriecito&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Barriecito&family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Barriecito&family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Jacquarda+Bastarda+9&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+    <!--bootstrap library-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg">
+    <title>Codesigners</title>
+</head>
+<body>
+    <section class="dark-background">
+        <div class="container">
+            <header class="d-flex justify-content-center py-3">
+              <ul class="nav nav-pills justify-content-center ">
+                <a href="./pricing.html" class="btn main-color fw-bold">Pricing</a>
+                <a href="./aboutUs.html" class="btn main-color fw-bold">Why us</a>
+              </ul>
+            </header>
+          </div>
+    </section>
+    
+    <section id="hero">
+        <div class="px-4 py-5 my-5 text-center dark-background">
+            <img class="d-block mx-auto mb-4" src="./images/logo.svg" alt="logo" width="200">
+            <h1 class="display-1 fw-bold text-body-emphasis" id="mainTitle">Welcome to <span id="span-title" style="color:#01DF00;" onmouseover=fontLooper()>Codesigners</span></h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="fw-bold lead mb-4">Programming and Graphic Design Solutions</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-sm-4 col-lg-6">
+                <img src="./images/about-us-01-01.svg" class="d-block mx-lg-auto mx-sm-auto" alt="about-us-icon"loading="lazy">
+              </div>
+              <div class="col-lg-6 col col-sm-8">
+                <h2 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">Who are we</h2>
+                <p class="lead paragraphs">We are a small group of designers and programmers filled with <span class="fw-bold"style="color:#01DF00;">imagination and curiosity</span> aiming for impact in our fields!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="./aboutUs.html" class="btn btn-light btn-lg px-4 me-md-2 button">More about us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="services">
+      <div class="dark-background">
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="display-3 pb-2 text-center fw-bold">What we do</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center">
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./images/web-and-apps-01.svg" alt="printer" width="75px">  
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Websites and Mobile Apps</h3>
+                  <p class="paragraphs">All successful brands aims for <span class="fw-bold"style="color:#01DF00;">consistency and easy-to-use</span> websites and applications that connects them with their costumers and that is our goal!</p>
+                  <a href="./webAndMob.html" class="btn btn-light button">
+                    Gallery
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./images/pen-tool-01.svg" alt="pen-tool" width="75px">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Graphic Designs Solutions</h3>
+                  <p class="paragraphs">Through the years, we helped countless small bussinesses and entreprenuers build their start-ups with <span class="fw-bold"style="color:#01DF00;">great designs that attract costumers.</span></p>
+                  <a href="./graphic.html" class="btn btn-light button">
+                    Gallery
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./images/printer-01.svg" alt="printer" width="75px">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Printable Elements and Visuals</h3>
+                  <p class="paragraphs">One of the most catchy things to our eyes are printed advertisement, and that's why we use <span class="fw-bold"style="color:#01DF00;">the finest and most advanced techniques</span> when creating visuals.</p>
+                  <a href="./printable.html" class="btn btn-light button">
+                    Gallery
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./images/customDesigns-01.svg" alt="printer" width="75px">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Custom Designs and ideas</h3>
+                  <p class="paragraphs">In Codesigners we tend to give the costumer the <span class="fw-bold"style="color:#01DF00;">option for ordering <br> custom designs!</span></p>
+                  <a href="./customDesigns.html" class="btn btn-light button">
+                    Gallery
+                  </a>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                  <img src="./images/brochuresAndCatalogues-01.svg" alt="printer" width="75px">
+                </div>
+                <div>
+                  <h3 class="fs-2 text-body-emphasis">Catalogues and identities</h3>
+                  <p class="paragraphs">Enlighten your costumers with <span class="fw-bold"style="color:#01DF00;">wonderful and marvelous</span> catalogues, flyers and brochures!</p>
+                  <a href="./brochuresAndCatalogues.html" class="btn btn-light button">
+                    Gallery
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-sm-4 col-lg-6">
+            <img src="./images/ContactUs.svg" class="d-block mx-lg-auto mx-sm-auto" alt="contact-us-icon"loading="lazy">
+          </div>
+          <div class="col-lg-6 col col-sm-8">
+            <h2 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">Hit us up!</h2>
+            <p class="lead paragraphs">Get in touch with us by one of the following options and make your dream project rise <br> to <span class="fw-bold"style="color:#01DF00; font-size: 30px"> life!</span></p>
+            <div class="justify-content-center">
+              <img class = "qr-image" src="./images/instagram-01.png" alt="Instagram">
+              <img class = "qr-image" src="./images/directMessage-01.png" alt="DirectMessage">
+              <img class = "qr-image" src="./images/email-01-01.png" alt="Email">
+              <img class = "qr-image" src="./images/linkedIn-01.png" alt="Linkedin">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="dark-background">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-12">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-lg-4">
+              <p class="col-md-4 mb-0 text-body-secondary">© 2024 Codesigners</p>
+              <a href="./index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img class="d-block mx-auto mb-2 mt-2" src="./images/logo.svg" alt="logo" width="50">
+              </a>
+            </footer>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      function fontLooper(){
+        let fonts = ["Anta", "Josefin Sans", "PT Serif", "Bebas Neue", "Dancing Script", "Pacifico", "Barriecito"
+        , "Caveat", "Protest Guerrilla"]
+        let randomizer;
+          randomizer = Math.floor(Math.random()*9);
+          document.getElementById("span-title").style.fontFamily =fonts[randomizer];
+        }
+        
+    </script>
+  </body>
+</html>

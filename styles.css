@@ -1,0 +1,43 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.icon-square {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.75rem;
+  }
+
+.button{
+    background-color: #01DF00;
+    border-color: #01DF00;
+}
+
+.main-color{
+    color: #01DF00;
+}
+
+.dark-background{
+    background-color: #1e1e1ea7;
+}
+
+#span-title {
+    animation: 2s infinite alternate ease-in-out breathing-color-mode;
+}
+
+@keyframes breathing-color-mode {
+    from {
+        color: #ffffff;
+    }
+    to {
+        color: #01DF00;
+    }
+}
+
+.paragraphs{
+    font-weight: 500;
+}
+
+.qr-image{
+    width: 150px;
+    height: 150px;
+}
